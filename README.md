@@ -16,6 +16,7 @@ Kullanılan Sınıf ve Modüller:
 5-)List, Set, Tuple, Optional: typing modülünden gelen bu generik tipler, Python'da statik tip denetimi ve kodun daha okunabilir olması için kullanılır. List bir listeyi, Set bir küme yapısını, Tuple sabit uzunlukta ve sıralı bir veri yapısını, Optional ise bir değerin ya belirtilen tipte ya da None olabileceğini ifade eder.
  
  BFS Algoritması:
+ 
   -Seçili bir düğümden(kaynak veya başlangıç düğümü) başlayarak ve grafiği katman katman dolaşarak komşu düğümleri(kaynak düğüme doğrudan bağlı düğümler) keşfetmeniz gereken bir geçiş algoritmasıdır.
 
   
