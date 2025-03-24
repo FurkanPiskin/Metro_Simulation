@@ -17,13 +17,19 @@ Kullanılan Sınıf ve Modüller:
  
  BFS Algoritması:
   -Seçili bir düğümden(kaynak veya başlangıç düğümü) başlayarak ve grafiği katman katman dolaşarak komşu düğümleri(kaynak düğüme doğrudan bağlı düğümler) keşfetmeniz gereken bir geçiş algoritmasıdır.
+
+  
   1-)Başlangıç ve Hedef İstasyon Kontrolü
   -Başlangıç ve hedef istasyonlarının tanımlanan metro ağı içinde olup olmadığı kontrol edilir.
+
+  
 
   2-)Başlangıç Değerlerinin Ayarlanması
   -Baslangıç ve hedef istasyonları değişkenlerde tutulur
   -Kuyruk yapısı oluşturulur ve kuyruğa (baslangic_id, [baslangic]) eklenir.
   -Ziyaret edilen istasyonlar(visited) kümesi oluşturulur ve başlangıç istasyonu eklenir.
+
+  
 
   3-)Kuyruk İşleme(BFS Döngüsü)
   -Kuyruk boş olana kadar döngü devam eder
@@ -32,25 +38,33 @@ Kullanılan Sınıf ve Modüller:
   4-)Hedef Kontrolü
   -Eğer current_id==hedef__id ise,current_route döndürülerek işlem tamamlanır.
 
+
   5-)Komşuları İşleme
   -Mevcut istasyonun komşuları döngü ile incelenir.
   -Eğer komşu istasyon ziyaret edilmemişse:
      -visited listesine eklenir
      -komşu istasyon kuyruğa eklenir.
      
+     
    6-Hedefe Ulaşılmadıysa
    -Kuyruk tamamen işlendiyse ve hedef istasyona ulaşılamadıysa None döndürülür
+   
 
  A* Algoritması:
+ 
  -​Bilgisayar bilimlerinde yaygın olarak kullanılan sezgisel bir arama ve yol bulma algoritmasıdır. Bu algoritma, başlangıç düğümünden hedef düğüme en düşük maliyetli yolu bulmayı amaçlar.
+
+ 
 1-) Başlangıç ve Hedef Kontrolü
 -Başlangıç ve hedef istasyonlarının metro ağı içinde olup olmadığı kontrol edilir.
 -Eğer istasyonlardan biri yoksa None döndürülür.
+
 
 2️-)Öncelik Kuyruğu (Priority Queue) Hazırlanır
 -Öncelik kuyruğu (pq) oluşturulur ve içine (0, baslangic_id, baslangic, [baslangic]) eklenir.
 -Buradaki 0, başlangıç istasyonunun toplam süresidir.
 -Ziyaret edilen istasyonlar (visited) kümesi oluşturulur.
+
 
 3️-)Kuyruk İşleme (A Döngüsü)*
 -Öncelik kuyruğu boş olana kadar döngü devam eder.
@@ -59,6 +73,7 @@ Kullanılan Sınıf ve Modüller:
 -current_id → Güncel istasyonun kimliği
 -current_station → Güncel istasyonun kendisi
 -current_route → Şu ana kadar olan güzergah
+
 
 4-) Hedef Kontrolü
 Eğer current_id == hedef_id ise, (current_route, current_cost) döndürülerek işlem tamamlanır.
