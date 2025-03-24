@@ -97,6 +97,20 @@ BFS Algoritması,ağırlıksız grafiklerde en kısa yolu bulmada etkilidir.BFS,
 A* Algoritması,sezgisel fonksiyonlar kullanarak başlangıç noktasından hedefe en kısa veya en hızlı yolu bulur.İstasyonlar arasındaki seyahat süreleri farklılık gösterebileceğinden bu algoritmayı kullanarak bu sürelere göre en hızlı rotayı belirlemede oldukça işlevseldir..
 
 Bu projenin devamında daha geniş bir metro ağı simüle edebilir ve farklı senaryolar üzerinde çalışabilirim. Örneğin, bir hattın bakımda olması durumunda alternatif rotaların nasıl oluşturulacağına dair çözümler geliştirebilirim. Ayrıca, metro ağı ve rotaları görsel olarak temsil eden, kullanıcı dostu bir arayüz tasarlayarak daha etkileşimli bir deneyim sunabilirim.
+
+Test Sonuçları
+
+1. AŞTİ'den OSB'ye:
+En az aktarmalı rota: AŞTİ -> Kızılay -> Kızılay -> Ulus -> Demetevler -> OSB
+En hızlı rota (25 dakika): AŞTİ -> Kızılay -> Kızılay -> Ulus -> Demetevler -> OSB
+
+2. Batıkent'ten Keçiören'e:
+En az aktarmalı rota: Batıkent -> Demetevler -> Gar -> Keçiören
+En hızlı rota (21 dakika): Batıkent -> Demetevler -> Gar -> Keçiören
+
+3. Keçiören'den AŞTİ'ye:
+En az aktarmalı rota: Keçiören -> Gar -> Gar -> Sıhhiye -> Kızılay -> AŞTİ
+En hızlı rota (19 dakika): Keçiören -> Gar -> Gar -> Sıhhiye -> Kızılay -> AŞTİ
    
   
    
