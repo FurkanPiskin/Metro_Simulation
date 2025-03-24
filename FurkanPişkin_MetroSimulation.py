@@ -1,7 +1,7 @@
 from collections import defaultdict, deque
 import heapq
 from typing import Dict, List, Set, Tuple, Optional
-from collections import deque
+
 
 class Istasyon:
     def __init__(self, idx: str, ad: str, hat: str):
@@ -43,7 +43,7 @@ class MetroAgi:
         visited = set()  # Ziyaret edilen istasyonlar
         visited.add(baslangic_id)
 
-        while queue:#Kuyruk yapısının içine girilir.
+        while queue:#Kuyruk boş olana kadar döngü devam eder
             current_id,current_route=queue.popleft() #Kuyruktaki ilk eleman ile ilgili bilgiler değişkenlere atanır.
             if current_id==hedef_id:#Güncel istasyon ile hedef istasyon aynı olup olmadığı kontrolü burada yapılır.
                 return current_route #Eğer hedef istasyona ulaşılmışssa güncel rotayı döndürür.
