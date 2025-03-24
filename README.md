@@ -123,6 +123,7 @@ En hızlı rota (19 dakika): Keçiören -> Gar -> Gar -> Sıhhiye -> Kızılay -
    
   
 
- ![test](https://github.com/user-attachments/assets/41f470d8-c3de-44f8-a37a-9f06e783a4a3)
+![test2](https://github.com/user-attachments/assets/2c085b50-2ac5-4597-8893-01f24b528132)
+
 
  
