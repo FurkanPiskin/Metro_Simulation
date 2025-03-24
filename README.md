@@ -2,6 +2,8 @@
  Metro Simulation 🚇 | Pathfinding with BFS & A*
 
 Kullanılan Sınıf ve Modüller:
+
+
 1-)collections Modülü: Python'ın standart kütüphanesinde bulunan collections modülü, yüksek performanslı ve kullanışlı veri yapıları sağlar. Bu modül, geleneksel veri tiplerine ek olarak deque, Counter, OrderedDict, defaultdict gibi ek veri tiplerini içerir. ​
 
 2-)deque Sınıfı: collections modülünün bir parçası olan deque (double-ended queue), her iki uçtan da hızlı ve verimli bir şekilde eleman ekleme ve çıkarma işlemleri yapabilen bir veri yapısıdır. Bu özellikleri sayesinde, kuyruk ve yığın gibi veri yapılarının uygulanmasında kullanılır. ​
