@@ -101,15 +101,21 @@ Bu projenin devamında daha geniş bir metro ağı simüle edebilir ve farklı s
 Test Sonuçları
 
 1. AŞTİ'den OSB'ye:
+   
 En az aktarmalı rota: AŞTİ -> Kızılay -> Kızılay -> Ulus -> Demetevler -> OSB
+
 En hızlı rota (25 dakika): AŞTİ -> Kızılay -> Kızılay -> Ulus -> Demetevler -> OSB
 
-2. Batıkent'ten Keçiören'e:
+3. Batıkent'ten Keçiören'e:
+   
 En az aktarmalı rota: Batıkent -> Demetevler -> Gar -> Keçiören
+
 En hızlı rota (21 dakika): Batıkent -> Demetevler -> Gar -> Keçiören
 
-3. Keçiören'den AŞTİ'ye:
+5. Keçiören'den AŞTİ'ye:
+ 
 En az aktarmalı rota: Keçiören -> Gar -> Gar -> Sıhhiye -> Kızılay -> AŞTİ
+
 En hızlı rota (19 dakika): Keçiören -> Gar -> Gar -> Sıhhiye -> Kızılay -> AŞTİ
    
   
